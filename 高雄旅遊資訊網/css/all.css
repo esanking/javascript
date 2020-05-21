@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+.wrap{
+    width: 1024px;
+    height: 100%;
+    border:1px solid blue;
+    margin:auto;
+}
+.top{
+    background-image: url("../img/Hero.png");
+    width: 1024px;
+    height: 380px;
+}
+.top .title{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 89px;
+}
+
+.box #select{
+    
+    width: 452px;
+    height: 48px;
+    
+    opacity: 0.75;
+    margin-left:293px ;
+    position: absolute;
+    top:225px;
+}
+.top .hot-region{
+    width: 800px;
+    height: 112px;
+    position: absolute;
+    top:352px;
+    margin-left: 112px;
+    border: 1px solid write ;
+    box-shadow:1px 1px 1px 1px #cccccc;
+    background: white;
+    border-radius: 5px;
+}
+.top .hot-region>h2{
+    margin-top: 20px;
+    margin-left: 26px;
+    font-size: 18px;
+}
+.hot-region .place{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.hot-region .place>input{
+    width: 130px;
+    height: 42px;
+    font-size: 20px;
+    color: white;
+}
+.place .color1{
+    background: #8A82CC;
+    border-radius: 5px;
+}
+.place .color2{
+    background: #FFA782;
+    border-radius: 5px;
+}
+.place .color3{
+    background: #F5D105;
+    border-radius: 5px;
+}
+.place .color4{
+    background: #559AC8;
+    border-radius: 5px;
+}
+
+.line{
+    width: 900px;
+    border-top:1px dashed  #559AC8;
+    height: 1px;
+    overflow:hidden;
+    position: absolute;
+    top:513px;
+    margin-left: 50px;
+}
+.top .img{
+    position: absolute;
+    top:500px;
+    border: 2px solid #559AC8;
+    border-radius: 50%;
+    
+    margin-left: 500px;
+    width: 24px;
+    height: 24px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid{
+    width: 1024px;
+    
+    margin-top: 200px;
+}
+#get-region{
+    font-family: SFNSDisplay;
+    font-size: 36px;
+    color: #8A82CC;
+    
+    margin-top: 200px;
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow:1;
+    flex-shrink: 1;
+}
+.under{
+    width: 1024px;
+    height: 148px;
+    position: relative;
+    bottom: 0;
+}
+.pages{
+    height: 58px;
+    background: #000;
+}
+.from-data{
+    width: 1024px;
+    height: 90px;
+    background: #559AC8;
+    overflow: hidden;
+}
+.from-data h2{
+    font-family: AppleSystemUIFont;
+    font-size: 14px;
+    color:white;
+    padding-top: 24px;
+    text-align: center;
+
+}
+.from-data p{
+    font-family: AppleSystemUIFont;
+    font-size: 14px;
+    color: #FFD366;
+    padding-top: 19px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.list li{
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+    margin: 20px 0;
+    width: 464px;
+    height: 273px;
+    position: relative;
+    overflow: hidden;
+}
+.list li h3{
+    font-family: SFNSDisplay;
+    font-size: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 50%;
+    left: 3%;
+}
+.list li h4{
+    font-family: PingFangTC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 50%;
+    right: 3%;
+}
+.sights{
+    padding: 3px;
+    
+   
+}
+.icon-1{
+    display: flex;
+    margin-bottom: 1%;
+    
+}
+.icon-1 img{
+    margin-right: 2%;
+}
+.icon-2{
+    
+    display: flex;
+    margin-bottom: 1%;
+}
+.icon-2 img{
+    margin-right: 2%;
+}
+.icon-3{
+    display: flex;
+    margin-bottom: 1%;
+}
+.icon-3 img{
+    margin-left: 2px;
+    margin-right: 2%;
+}
+
+.icon-4 span{
+    
+    position: absolute;
+    right:24px;
+}
+.icon-4 img{
+    position: absolute;
+    right: 100px;
+}

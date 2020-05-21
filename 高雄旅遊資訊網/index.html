@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    
+    <div class="wrap">
+        <div class="top">
+            <p class="title">高雄旅遊資訊</p>
+            <div class="box">
+                <select id="select">
+                    <option value="請選擇區域"> - - 請選擇區域 - - </option>
+                    <option value="苓雅區">苓雅區</option>
+                    <option value="三民區">三民區</option>
+                    <option value="新興區">新興區</option>
+                    <option value="茂林區">茂林區</option>
+                    <option value="茄萣區">茄萣區</option>
+                </select>
+            </div>
+            
+            <div class="hot-region">
+                <h2>熱門行政區</h2>
+                <div class="place">
+                    <input type="button" value="苓雅區" class="color1" >
+                    <input type="button" value="三民區" class="color2" >
+                    <input type="button" value="新興區" class="color3" >
+                    <input type="button" value="茂林區" class="color4" >
+                    <input type="button" value="茄萣區" class="color4" >
+                </div>
+                
+            </div>
+            
+            <div class="line"></div>
+            <div class="img"><img src="img/icons_down.png"></div>
+            
+            
+        </div>
+        <div class="mid">
+            <h2 id="get-region"></h2>
+            <ul class="list"></ul>
+        </div>
+        <div class="under">
+            <div class="page">
+                <ul class="pages" id="pages"></ul>
+            </div>
+            <div class="from-data">
+                <h2>高雄旅遊網</h2>
+                <p>資料來源 : 高雄市政府</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/all.js"></script>
+</body>
+</html>
